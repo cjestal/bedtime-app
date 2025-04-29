@@ -15,7 +15,7 @@ export default function Example() {
 	const [selectedCharacters, setSelectedCharacters] = useState<string[]>([]);
 
 	// const [characters, setCharacters] = useState<string | null>(null);
-	const url = "http://147.182.157.53:4000/generate";
+	const url = "https://147.182.157.53:4000/generate";
 
 	const generateStory = async () => {
 		const qs = new URLSearchParams({
