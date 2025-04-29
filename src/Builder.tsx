@@ -22,7 +22,9 @@ export default function Example() {
 			theme: selectedTheme,
 			location: selectedLocation,
 			characters: selectedCharacters.join(","),
-		}).toString().replace(/%2C/g, ",");
+		})
+			.toString()
+			.replace(/%2C/g, ",");
 		const urlWithParams = `${url}?${qs.toString()}`;
 
 		setIsLoading(true);
@@ -263,7 +265,7 @@ export default function Example() {
 				<div className="bg-gradient-to-b from-gray-900 to-gray-500 py-24 sm:py-32">
 					<div className="mx-auto max-w-7xl px-6 lg:px-8 ">
 						<div className="mx-auto  text-white w-full max-w-xl  gap-8 py-20 lg:px-40  lg:max-w-none p-8 bg-slate-700/5 ring-1 ring-white/10 rounded-2xl flex flex-col justify-center items-start">
-							<div className="text-center mb-8">
+							<div className="text-center mb-8 flex justify-center items-center flex-col w-full">
 								<h3 className="text-4xl font-semibold leading-relaxed text-pretty text-white sm:text-5xl ">
 									{title}
 								</h3>
