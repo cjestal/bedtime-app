@@ -22,7 +22,7 @@ export default function Example() {
 			theme: selectedTheme,
 			location: selectedLocation,
 			characters: selectedCharacters.join(","),
-		});
+		}).toString().replace(/%2C/g, ",");
 		const urlWithParams = `${url}?${qs.toString()}`;
 
 		setIsLoading(true);
