@@ -1,12 +1,12 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
 const benefits = [
-	"Competitive salaries",
-	"Flexible work hours",
-	"30 days of paid vacation",
-	"Annual team retreats",
-	"Benefits for you and your family",
-	"A great work environment",
+	"Fosters a love for reading",
+	"Strengthens parent-child bond",
+	"Enhances language skills",
+	"Boosts creativity and imagination",
+	"Encourages a calming bedtime routine",
+	"Improves focus and attention span",
 ];
 
 export default function Example() {
@@ -25,8 +25,9 @@ export default function Example() {
 								Read Beautiful Stories
 							</h2>
 							<p className="mt-6 text-lg/8 text-pretty text-gray-300">
-								Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-								magnam voluptatum cupiditate veritatis in accusamus quisquam.
+								Make bedtime magical every night for your children with our
+								beautiful stories. Create lasting memories and a soothing
+								routine they'll cherish forever.
 							</p>
 							<ul
 								role="list"
@@ -42,11 +43,6 @@ export default function Example() {
 									</li>
 								))}
 							</ul>
-							<div className="mt-10 flex">
-								<a href="#" className="text-sm/6 font-semibold text-indigo-400">
-									See our job postings <span aria-hidden="true">&rarr;</span>
-								</a>
-							</div>
 						</div>
 					</div>
 				</div>
